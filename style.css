@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte moderna e profissional */
+    background-color: #f4f4f4; /* Fundo cinza claro para um visual clean */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fff; /* Container branco para destacar o formulário */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */
+    width: 400px; /* Largura moderada para o formulário */
+    text-align: center;
+}
+
+.login-header h2 {
+    color: #333; /* Título em cor escura */
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    color: #777; /* Subtítulo em cor mais clara */
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Alinhar os labels à esquerda */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold; /* Label em negrito para destaque */
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: calc(100% - 22px); /* Ajuste para a borda e padding */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #007bff; /* Cor azul profissional */
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Cor azul mais escura no hover */
+}
+
+.login-footer {
+    margin-top: 20px;
+    color: #777;
+}
+
+.login-footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+.login-footer span {
+    color: #ddd;
+}
